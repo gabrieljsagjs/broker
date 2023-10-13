@@ -1,0 +1,97 @@
+body {
+  background-color: #1f094d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+  float: left; /* turn left */
+  padding-left: 220px;
+  margin-top: 170px;
+}
+
+.table-container {
+  float: right; /* Alinhe à direita */
+  margin-right: 220px; /* Adicione margem direita para criar espaço entre os elementos */
+  margin-top: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+}
+
+.paragraph-1 {
+  color: #41ffd1;
+  font-size: 25px;
+}
+
+.paragraph-2 {
+  color: #fff;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+}
+.paragraph-3 {
+  color: #fff;
+  font-size: 15px;
+   
+}
+
+.table-right {
+  border-radius: 30px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 20px 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+th {
+  background-color: #001327;
+  color: #fff;
+}
+
+.valor-cell {
+  font-weight: bold;
+}
+
+/* Faz com que o texto dentro das células da tabela seja preto e em negrito */
+td {
+  color: black;
+  font-weight: bold;
+}
+
+
+/*Button to homebroker*/
+button {
+  float: left;
+  display: block; /* Tornar o botão um bloco para centralização */
+  margin-top: 70px;
+  margin-left: 240px;
+  background-color: #8b0062; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 20px 100px; /* Espaçamento interno do botão */
+  border: none; /* Remover a borda padrão do botão */
+  border-radius: 5px; /* Bordas arredondadas */
+  text-decoration: none; /* Remover sublinhado do link */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1); 
+}
+
+/*Turn green when "valor" <1*/
+.green-row {
+  background-color: green;
+}
+/*Turn red when "valor" >1*/
+.red-row {
+  background-color: red;
+}
+
